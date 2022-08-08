@@ -21,11 +21,32 @@ body {
 
 }
 
+
+
+#first-button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
 span {
 
-    color: blue;
-    background-color: rgb(24, 191, 88);
-    border-radius: 10rem;
+    background: #f79d00;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #64f38c, #f79d00);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #64f38c, #f79d00);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 
 
 }
@@ -68,13 +89,21 @@ a:hover {
 }
 
 .homesection {
-    background-color: rgba(255, 127, 80, 0.47);
+    background: #a80077;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #66ff008crgba(168, 0, 118, 0.488)77);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #66ff0072, #a80076b3);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     height: 90vh;
     width: 35vw;
     text-align: center;
     min-width: min-content;
 
+
 }
+
 
 
 
@@ -86,7 +115,13 @@ a:hover {
 }
 
 .container2 {
-    background-color: rgba(144, 99, 62, 0.897);
+    background: #BA8B02;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #181818, #BA8B02);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #181818, #BA8B02);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -97,6 +132,8 @@ a:hover {
 
 
 }
+
+
 
 .food {
     display: flex;
@@ -116,7 +153,13 @@ a:hover {
     border-style: solid;
     color: rgb(113, 8, 13);
     transform: scale(1.2);
-    background-color: aliceblue;
+    background: #C02425;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F0CB35, #C02425);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F0CB35, #C02425);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 
@@ -124,7 +167,13 @@ a:hover {
 
 
 .container3 {
-    background-color: rgba(113, 74, 25, 0.877);
+    background: #BA8B02;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #181818, #BA8B02);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #181818, #BA8B02);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -197,12 +246,6 @@ a:hover {
 
 }
 
-/* psudo */
-#first-button:hover {
-    background-color: aquamarine;
-    transition-duration: 3000ms;
-
-}
 
 
 
