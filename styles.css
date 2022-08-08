@@ -1,3 +1,7 @@
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
 body {
     margin: 0;
 
@@ -17,6 +21,13 @@ body {
 
 }
 
+span {
+    border-style: solid;
+    color: blue;
+    background-color: rgba(250, 235, 215, 0.604);
+
+}
+
 
 #menu {
     text-align: center;
@@ -24,12 +35,11 @@ body {
 }
 
 .nav-tool {
-    background-color: rgba(245, 245, 220, 0.586);
+
     display: flex;
     justify-content: space-around;
     margin-left: 50%;
-    border-style: solid;
-    color: black;
+
     margin-top: 0;
     margin-bottom: 0;
     margin-right: o;
@@ -56,6 +66,7 @@ a:hover {
     width: 35vw;
     text-align: center;
     min-width: min-content;
+    font-size: x-large;
 }
 
 
@@ -113,6 +124,10 @@ a:hover {
     position: relative;
     text-align: center;
     color: rgb(72, 41, 156);
+}
+
+#faq {
+    height: 59vh;
 }
 
 #faq:hover {
