@@ -1,17 +1,53 @@
+body {
+    margin: 0;
+
+}
+
 .container1 {
     background-image: url(/background.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
-    width: 100wh;
+    width: 100vw;
+    z-index: 2;
+    position: relative;
+
+
+
 }
 
-.link1 {
+
+#menu {
+    text-align: center;
+    margin: 0;
+}
+
+.nav-tool {
     background-color: rgba(245, 245, 220, 0.586);
     display: flex;
     justify-content: space-around;
-    margin-left: 600px;
+    margin-left: 50%;
+    border-style: solid;
+    color: black;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: o;
+
+}
+
+
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(20, 23, 18);
+}
+
+a:hover {
+    color: brown;
 }
 
 .homesection {
@@ -19,9 +55,13 @@
     height: 90vh;
     width: 35vw;
     text-align: center;
+    min-width: min-content;
 }
 
-img {
+
+
+
+.food img {
     width: 30vw;
     height: 30vh;
 }
@@ -31,30 +71,129 @@ img {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 150vh;
+    height: 100vh;
     width: 100wh;
     text-align: center;
 
 
+
 }
 
-#food {
+.food {
     display: flex;
     justify-content: space-between;
-    flex-direction: column;
+    flex-direction: row-reverse;
+    color: blue;
+
 }
+
+.food1 {
+    border-style: solid;
+    color: black;
+    padding-bottom: 0%;
+}
+
+.food1:hover {
+    border-style: dashed;
+    color: aquamarine;
+}
+
+
+
 
 
 .container3 {
+    background-image: url(/background2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100wh;
+    z-index: 2;
+    position: relative;
     text-align: center;
+    color: rgb(72, 41, 156);
+}
+
+#faq:hover {
+    color: aqua;
+
+}
+
+#faq1 {
+    margin: 0;
 }
 
 #terms {
     text-align: center;
+    font-size: larger;
 
 
 }
 
 .container4 {
+    background-image: url(/background.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100wh;
+    z-index: 2;
+    position: relative;
     text-align: center;
+    font-size: x-large;
+}
+
+#contact {
+    margin: 0%;
+}
+
+.container4:hover {
+
+    font-style: normal;
+    color: aqua;
+}
+
+#name1:hover {
+
+    transition-duration: 3000ms;
+    background-color: brown;
+}
+
+#email1:hover {
+    transition-duration: 3000ms;
+    background-color: brown;
+
+}
+
+/* psudo */
+#first-button:hover {
+    background-color: aquamarine;
+    transition-duration: 3000ms;
+
+}
+
+
+
+
+
+@media only screen and (max-width:400px) {
+    .homesection {
+
+        height: 80vh;
+        width: 50vw;
+    }
+
+
+}
+
+@media only screen and (max-width:400px) {
+    .nav-to {
+        background-image: url(/background.webp);
+        height: 50vh;
+        width: 50vw;
+        background-repeat: no-repeat;
+
+    }
+
 }
