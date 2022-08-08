@@ -22,9 +22,11 @@ body {
 }
 
 span {
-    border-style: solid;
+
     color: blue;
-    background-color: rgba(250, 235, 215, 0.604);
+    background-color: rgb(24, 191, 88);
+    border-radius: 10rem;
+
 
 }
 
@@ -42,9 +44,14 @@ span {
 
     margin-top: 0;
     margin-bottom: 0;
-    margin-right: o;
+    margin-right: 0;
+    position: fixed;
+    font-size: large;
+
 
 }
+
+
 
 
 
@@ -66,7 +73,7 @@ a:hover {
     width: 35vw;
     text-align: center;
     min-width: min-content;
-    font-size: x-large;
+
 }
 
 
@@ -75,10 +82,11 @@ a:hover {
 .food img {
     width: 30vw;
     height: 30vh;
+    border-radius: 30%;
 }
 
 .container2 {
-    background-image: url(/background2.jpg);
+    background-color: rgba(144, 99, 62, 0.897);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -99,14 +107,16 @@ a:hover {
 }
 
 .food1 {
-    border-style: solid;
+
     color: black;
     padding-bottom: 0%;
 }
 
 .food1:hover {
-    border-style: dashed;
-    color: aquamarine;
+    border-style: solid;
+    color: rgb(113, 8, 13);
+    transform: scale(1.2);
+    background-color: aliceblue;
 }
 
 
@@ -114,13 +124,13 @@ a:hover {
 
 
 .container3 {
-    background-image: url(/background2.jpg);
+    background-color: rgba(113, 74, 25, 0.877);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
     width: 100wh;
-    z-index: 2;
+
     position: relative;
     text-align: center;
     color: rgb(72, 41, 156);
@@ -151,9 +161,9 @@ a:hover {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 120vh;
     width: 100wh;
-    z-index: 2;
+
     position: relative;
     text-align: center;
     font-size: x-large;
@@ -181,6 +191,12 @@ a:hover {
 
 }
 
+.texterea1:hover {
+    transition-duration: 3000ms;
+    background-color: brown;
+
+}
+
 /* psudo */
 #first-button:hover {
     background-color: aquamarine;
@@ -202,13 +218,17 @@ a:hover {
 
 }
 
-@media only screen and (max-width:400px) {
-    .nav-to {
-        background-image: url(/background.webp);
-        height: 50vh;
-        width: 50vw;
-        background-repeat: no-repeat;
 
+
+@media only screen and (max-width:560px) {
+    #faq2 {
+        font-size: 60%;
     }
+}
 
+@media only screen and (max-width:400px) {
+    .nav-tool {
+        margin-right: 30%;
+        font-size: small;
+    }
 }
