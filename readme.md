@@ -26,7 +26,7 @@ The menu
 
 
 
-## Be a contribute:
+## Visit site:
 
-<a href="/CONTRIBUTION.md">Contribution Readme</a>
+<a href="https://app.netlify.com/sites/ranifood/overview">Food site </a>
 
