@@ -8,6 +8,7 @@ Food site is a site for
 2. this project simulates a restaurant site.
 3. it shows the menu 
 4. in this site i focused on the desgined and understanding the basics of html and css.
+![2022-10-19 (5)](https://user-images.githubusercontent.com/110329486/196674200-a03fb464-aefa-481b-a250-dc5e8c8c4d91.png)
 
 
 ### Food site
