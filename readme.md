@@ -1,56 +1,23 @@
 # Food site 
 
-Goolo is a swiper, which learns what you like and shows you exactly the clothes you like, all in one place and with
-an interactive left/right swipe.
-With a potential affiliation business model :) 
+Food site is a site for 
 
-## Table Of Contents
-- [Goolo](#Goolo)
-  * [Why was Goolo made and why you should use it](#Why-was-Goolo-made-and-why-you-should-use-it)
-  * [Running the project](#running-the-project)
-  * [Screenshots](#screenshots)
-    + [Goolo Swiper](#Goolo-Swiper)
-    + [Goolo Recommendations](#Goolo-Recommendations)
-  * [Technologies](#technologies)
-    + [Client-Side](#client-side)
-    + [Server-Side](#server-side)
-  * [Whats Next](#whats-next)
-  * [Be a contribute](#be-a-contribute)
-  
-## Why was Goolo made and why you should use it
+## Why was Foodsite made and why you should use it
 
-1. I understood the world of not being able to 
-   choose clothes is not my own concern.
-2. Goolo helps me and I hope others to ease the pain
-   of looking for the right clothes!
-3. Are you a clothing shop?
-   uncustomized buying experience 
-   makes customers to bounce between websites in a chase after clothes they like, which leads to less sales.
-   Feel free to use this open source code!
-## Running the project
-
-1. Clone the repo.
-2. Run `npm install`.
-3. enter the server folder.
-4. run `nodemon server.js`.
-5. go back to the root folder.
-6. Run `npm start`.
-7. Navigate to `http://localhost:3000`.
-
-## Screenshots
-
-### Goolo Swiper
-An interactive swiper, you like it, you swipe it.
-leave the rest to us :)
-
-<p align="center"><img src="./ImgsForReadMe/Swiper-screenshot.png" width="300" /></p>
+1. this was my first project in a fullstack course.
+2. this project simulates a restaurant site.
+3. it shows the menu 
+4. in this site i focused on the desgined and understanding the basics of html and css.
 
 
-### Goolo Recommendations
-Clothes recommended specificialy for you,
-picked using our amazing algorithm!
+### Food site
+The menu
 
-<p align="center"><img src="./ImgsForReadMe/Reccomendations-screenshot.png" width="300" /></p>
+![2022-10-19 (1)](https://user-images.githubusercontent.com/110329486/196656575-bbba5c47-4cd7-4966-b017-863dce9f3d1f.png)
+
+
+
+
 
 ## Technologies:
 
