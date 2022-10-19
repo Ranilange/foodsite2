@@ -13,30 +13,17 @@ Food site is a site for
 ### Food site
 The menu
 
-![2022-10-19 (1)](https://user-images.githubusercontent.com/110329486/196656575-bbba5c47-4cd7-4966-b017-863dce9f3d1f.png)
 
 
-
+![food site pic](https://user-images.githubusercontent.com/110329486/196669533-3839665e-ff17-4ee7-bc82-65b52259cf0a.png)
 
 
 ## Technologies:
 
-### Client-side:
-* React.JS
-* Mobx
-* Sequelize
+* html
+* css
 
-### Server-side:
-* Node.JS
-* Express
-* SQL
 
-## What's next:
-1. improve swiper page by sending new clothes every 30 swipes.
-2. Improve algorithm for recommendations
-3. add more parameters for recommendation. 
-3. Adding affiliation to the app (because why not :))
-4. Buy clothes the way its meant to be. 
 
 ## Be a contribute:
 
